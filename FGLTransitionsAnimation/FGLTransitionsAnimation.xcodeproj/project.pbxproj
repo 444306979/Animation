@@ -16,6 +16,8 @@
 		E90481351CBCFBC5001D01DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90481331CBCFBC5001D01DF /* LaunchScreen.storyboard */; };
 		E90481401CBCFBC6001D01DF /* FGLTransitionsAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E904813F1CBCFBC6001D01DF /* FGLTransitionsAnimationTests.m */; };
 		E904814B1CBCFBC6001D01DF /* FGLTransitionsAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E904814A1CBCFBC6001D01DF /* FGLTransitionsAnimationUITests.m */; };
+		E904815B1CBD0256001D01DF /* WNModelTransitionAnima.m in Sources */ = {isa = PBXBuildFile; fileRef = E904815A1CBD0256001D01DF /* WNModelTransitionAnima.m */; };
+		E904815E1CBD0283001D01DF /* SectionBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E904815D1CBD0283001D01DF /* SectionBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		E90481461CBCFBC6001D01DF /* FGLTransitionsAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGLTransitionsAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E904814A1CBCFBC6001D01DF /* FGLTransitionsAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGLTransitionsAnimationUITests.m; sourceTree = "<group>"; };
 		E904814C1CBCFBC6001D01DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90481591CBD0256001D01DF /* WNModelTransitionAnima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNModelTransitionAnima.h; sourceTree = "<group>"; };
+		E904815A1CBD0256001D01DF /* WNModelTransitionAnima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNModelTransitionAnima.m; sourceTree = "<group>"; };
+		E904815C1CBD0283001D01DF /* SectionBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionBoard.h; sourceTree = "<group>"; };
+		E904815D1CBD0283001D01DF /* SectionBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +109,13 @@
 		E90481211CBCFBC5001D01DF /* FGLTransitionsAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E90481581CBD0211001D01DF /* Animations */,
 				E90481251CBCFBC5001D01DF /* AppDelegate.h */,
 				E90481261CBCFBC5001D01DF /* AppDelegate.m */,
 				E90481281CBCFBC5001D01DF /* ViewController.h */,
 				E90481291CBCFBC5001D01DF /* ViewController.m */,
+				E904815C1CBD0283001D01DF /* SectionBoard.h */,
+				E904815D1CBD0283001D01DF /* SectionBoard.m */,
 				E904812B1CBCFBC5001D01DF /* Main.storyboard */,
 				E90481311CBCFBC5001D01DF /* Assets.xcassets */,
 				E90481331CBCFBC5001D01DF /* LaunchScreen.storyboard */,
@@ -141,6 +150,15 @@
 				E904814C1CBCFBC6001D01DF /* Info.plist */,
 			);
 			path = FGLTransitionsAnimationUITests;
+			sourceTree = "<group>";
+		};
+		E90481581CBD0211001D01DF /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				E90481591CBD0256001D01DF /* WNModelTransitionAnima.h */,
+				E904815A1CBD0256001D01DF /* WNModelTransitionAnima.m */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E904815B1CBD0256001D01DF /* WNModelTransitionAnima.m in Sources */,
 				E904812A1CBCFBC5001D01DF /* ViewController.m in Sources */,
+				E904815E1CBD0283001D01DF /* SectionBoard.m in Sources */,
 				E90481271CBCFBC5001D01DF /* AppDelegate.m in Sources */,
 				E90481241CBCFBC5001D01DF /* main.m in Sources */,
 				E90481301CBCFBC5001D01DF /* FGLTransitionsAnimation.xcdatamodeld in Sources */,
@@ -418,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FGLTransitionsAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wannar.WannarTravel.FGLTransitionsAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FGLTransitionsAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wannar.WannarTravel.FGLTransitionsAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
