@@ -1,15 +1,14 @@
 //
-//  CALayer+Transition.h
-//  Carpenter
+//  CALayer+Animation.h
+//  FGLTransitionsAnimation
 //
-//  Created by 冯成林 on 15/4/23.
-//  Copyright (c) 2015年 冯成林. All rights reserved.
+//  Created by 付国良 on 16/4/15.
+//  Copyright © 2016年 玩哪儿. All rights reserved.
 //
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface CALayer (Cool)
-
+@interface CALayer (Animation)
 /*
  *  动画类型
  */

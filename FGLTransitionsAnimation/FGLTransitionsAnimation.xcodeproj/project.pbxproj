@@ -21,8 +21,8 @@
 		E90481B31CBF704C001D01DF /* WNLaunchLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E90481B21CBF704C001D01DF /* WNLaunchLite.m */; };
 		E90481B51CBF7EA3001D01DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90481B41CBF7EA3001D01DF /* Images.xcassets */; };
 		E9069D0E1CBFA3F9009038B1 /* WNLaunchScreenBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E9069D0D1CBFA3F9009038B1 /* WNLaunchScreenBoard.m */; };
-		E9069D141CBFB7B1009038B1 /* CALayer+Cool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9069D111CBFB7B1009038B1 /* CALayer+Cool.m */; };
 		E9069D151CBFB7B1009038B1 /* CoreLaunchCool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9069D131CBFB7B1009038B1 /* CoreLaunchCool.m */; };
+		E9069D1A1CC087A8009038B1 /* CALayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9069D191CC087A8009038B1 /* CALayer+Animation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +69,10 @@
 		E90481B41CBF7EA3001D01DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E9069D0C1CBFA3F9009038B1 /* WNLaunchScreenBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLaunchScreenBoard.h; sourceTree = "<group>"; };
 		E9069D0D1CBFA3F9009038B1 /* WNLaunchScreenBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLaunchScreenBoard.m; sourceTree = "<group>"; };
-		E9069D101CBFB7B1009038B1 /* CALayer+Cool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Cool.h"; sourceTree = "<group>"; };
-		E9069D111CBFB7B1009038B1 /* CALayer+Cool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Cool.m"; sourceTree = "<group>"; };
 		E9069D121CBFB7B1009038B1 /* CoreLaunchCool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLaunchCool.h; sourceTree = "<group>"; };
 		E9069D131CBFB7B1009038B1 /* CoreLaunchCool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLaunchCool.m; sourceTree = "<group>"; };
+		E9069D181CC087A8009038B1 /* CALayer+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Animation.h"; sourceTree = "<group>"; };
+		E9069D191CC087A8009038B1 /* CALayer+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +123,7 @@
 		E90481211CBCFBC5001D01DF /* FGLTransitionsAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E9069D161CC08717009038B1 /* Unit */,
 				E9069D071CBF9D62009038B1 /* WNLaunchScreen */,
 				E90481B01CBF6F93001D01DF /* LaunchScreenAnimation */,
 				E90481581CBD0211001D01DF /* Animations */,
@@ -208,12 +209,27 @@
 		E9069D0F1CBFB7B1009038B1 /* CoreLaunchCool */ = {
 			isa = PBXGroup;
 			children = (
-				E9069D101CBFB7B1009038B1 /* CALayer+Cool.h */,
-				E9069D111CBFB7B1009038B1 /* CALayer+Cool.m */,
 				E9069D121CBFB7B1009038B1 /* CoreLaunchCool.h */,
 				E9069D131CBFB7B1009038B1 /* CoreLaunchCool.m */,
 			);
 			path = CoreLaunchCool;
+			sourceTree = "<group>";
+		};
+		E9069D161CC08717009038B1 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				E9069D171CC08755009038B1 /* Category */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		E9069D171CC08755009038B1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E9069D181CC087A8009038B1 /* CALayer+Animation.h */,
+				E9069D191CC087A8009038B1 /* CALayer+Animation.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9069D151CBFB7B1009038B1 /* CoreLaunchCool.m in Sources */,
+				E9069D1A1CC087A8009038B1 /* CALayer+Animation.m in Sources */,
 				E904815B1CBD0256001D01DF /* WNModelTransitionAnima.m in Sources */,
 				E90481B31CBF704C001D01DF /* WNLaunchLite.m in Sources */,
 				E904812A1CBCFBC5001D01DF /* ViewController.m in Sources */,
@@ -356,7 +373,6 @@
 				E90481241CBCFBC5001D01DF /* main.m in Sources */,
 				E90481301CBCFBC5001D01DF /* FGLTransitionsAnimation.xcdatamodeld in Sources */,
 				E9069D0E1CBFA3F9009038B1 /* WNLaunchScreenBoard.m in Sources */,
-				E9069D141CBFB7B1009038B1 /* CALayer+Cool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

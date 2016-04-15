@@ -7,7 +7,7 @@
 //
 
 #import "CoreLaunchCool.h"
-#import "CALayer+Cool.h"
+#import "CALayer+Animation.h"
 
 #define iphone4x_3_5 ([UIScreen mainScreen].bounds.size.height==480.0f)
 
