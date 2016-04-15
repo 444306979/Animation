@@ -18,6 +18,11 @@
 		E904814B1CBCFBC6001D01DF /* FGLTransitionsAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E904814A1CBCFBC6001D01DF /* FGLTransitionsAnimationUITests.m */; };
 		E904815B1CBD0256001D01DF /* WNModelTransitionAnima.m in Sources */ = {isa = PBXBuildFile; fileRef = E904815A1CBD0256001D01DF /* WNModelTransitionAnima.m */; };
 		E904815E1CBD0283001D01DF /* SectionBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E904815D1CBD0283001D01DF /* SectionBoard.m */; };
+		E90481B31CBF704C001D01DF /* WNLaunchLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E90481B21CBF704C001D01DF /* WNLaunchLite.m */; };
+		E90481B51CBF7EA3001D01DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90481B41CBF7EA3001D01DF /* Images.xcassets */; };
+		E9069D0E1CBFA3F9009038B1 /* WNLaunchScreenBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E9069D0D1CBFA3F9009038B1 /* WNLaunchScreenBoard.m */; };
+		E9069D141CBFB7B1009038B1 /* CALayer+Cool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9069D111CBFB7B1009038B1 /* CALayer+Cool.m */; };
+		E9069D151CBFB7B1009038B1 /* CoreLaunchCool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9069D131CBFB7B1009038B1 /* CoreLaunchCool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,15 @@
 		E904815A1CBD0256001D01DF /* WNModelTransitionAnima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNModelTransitionAnima.m; sourceTree = "<group>"; };
 		E904815C1CBD0283001D01DF /* SectionBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionBoard.h; sourceTree = "<group>"; };
 		E904815D1CBD0283001D01DF /* SectionBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionBoard.m; sourceTree = "<group>"; };
+		E90481B11CBF704C001D01DF /* WNLaunchLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLaunchLite.h; sourceTree = "<group>"; };
+		E90481B21CBF704C001D01DF /* WNLaunchLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLaunchLite.m; sourceTree = "<group>"; };
+		E90481B41CBF7EA3001D01DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9069D0C1CBFA3F9009038B1 /* WNLaunchScreenBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLaunchScreenBoard.h; sourceTree = "<group>"; };
+		E9069D0D1CBFA3F9009038B1 /* WNLaunchScreenBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLaunchScreenBoard.m; sourceTree = "<group>"; };
+		E9069D101CBFB7B1009038B1 /* CALayer+Cool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Cool.h"; sourceTree = "<group>"; };
+		E9069D111CBFB7B1009038B1 /* CALayer+Cool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Cool.m"; sourceTree = "<group>"; };
+		E9069D121CBFB7B1009038B1 /* CoreLaunchCool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLaunchCool.h; sourceTree = "<group>"; };
+		E9069D131CBFB7B1009038B1 /* CoreLaunchCool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLaunchCool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +123,8 @@
 		E90481211CBCFBC5001D01DF /* FGLTransitionsAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E9069D071CBF9D62009038B1 /* WNLaunchScreen */,
+				E90481B01CBF6F93001D01DF /* LaunchScreenAnimation */,
 				E90481581CBD0211001D01DF /* Animations */,
 				E90481251CBCFBC5001D01DF /* AppDelegate.h */,
 				E90481261CBCFBC5001D01DF /* AppDelegate.m */,
@@ -117,10 +133,11 @@
 				E904815C1CBD0283001D01DF /* SectionBoard.h */,
 				E904815D1CBD0283001D01DF /* SectionBoard.m */,
 				E904812B1CBCFBC5001D01DF /* Main.storyboard */,
-				E90481311CBCFBC5001D01DF /* Assets.xcassets */,
 				E90481331CBCFBC5001D01DF /* LaunchScreen.storyboard */,
 				E90481361CBCFBC5001D01DF /* Info.plist */,
 				E904812E1CBCFBC5001D01DF /* FGLTransitionsAnimation.xcdatamodeld */,
+				E90481311CBCFBC5001D01DF /* Assets.xcassets */,
+				E90481B41CBF7EA3001D01DF /* Images.xcassets */,
 				E90481221CBCFBC5001D01DF /* Supporting Files */,
 			);
 			path = FGLTransitionsAnimation;
@@ -159,6 +176,44 @@
 				E904815A1CBD0256001D01DF /* WNModelTransitionAnima.m */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		E90481B01CBF6F93001D01DF /* LaunchScreenAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E9069D0F1CBFB7B1009038B1 /* CoreLaunchCool */,
+				E90481B11CBF704C001D01DF /* WNLaunchLite.h */,
+				E90481B21CBF704C001D01DF /* WNLaunchLite.m */,
+			);
+			path = LaunchScreenAnimation;
+			sourceTree = "<group>";
+		};
+		E9069D071CBF9D62009038B1 /* WNLaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E9069D081CBF9DCE009038B1 /* Controllers */,
+			);
+			path = WNLaunchScreen;
+			sourceTree = "<group>";
+		};
+		E9069D081CBF9DCE009038B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9069D0C1CBFA3F9009038B1 /* WNLaunchScreenBoard.h */,
+				E9069D0D1CBFA3F9009038B1 /* WNLaunchScreenBoard.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E9069D0F1CBFB7B1009038B1 /* CoreLaunchCool */ = {
+			isa = PBXGroup;
+			children = (
+				E9069D101CBFB7B1009038B1 /* CALayer+Cool.h */,
+				E9069D111CBFB7B1009038B1 /* CALayer+Cool.m */,
+				E9069D121CBFB7B1009038B1 /* CoreLaunchCool.h */,
+				E9069D131CBFB7B1009038B1 /* CoreLaunchCool.m */,
+			);
+			path = CoreLaunchCool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E90481351CBCFBC5001D01DF /* LaunchScreen.storyboard in Resources */,
+				E90481B51CBF7EA3001D01DF /* Images.xcassets in Resources */,
 				E90481321CBCFBC5001D01DF /* Assets.xcassets in Resources */,
 				E904812D1CBCFBC5001D01DF /* Main.storyboard in Resources */,
 			);
@@ -291,12 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9069D151CBFB7B1009038B1 /* CoreLaunchCool.m in Sources */,
 				E904815B1CBD0256001D01DF /* WNModelTransitionAnima.m in Sources */,
+				E90481B31CBF704C001D01DF /* WNLaunchLite.m in Sources */,
 				E904812A1CBCFBC5001D01DF /* ViewController.m in Sources */,
 				E904815E1CBD0283001D01DF /* SectionBoard.m in Sources */,
 				E90481271CBCFBC5001D01DF /* AppDelegate.m in Sources */,
 				E90481241CBCFBC5001D01DF /* main.m in Sources */,
 				E90481301CBCFBC5001D01DF /* FGLTransitionsAnimation.xcdatamodeld in Sources */,
+				E9069D0E1CBFA3F9009038B1 /* WNLaunchScreenBoard.m in Sources */,
+				E9069D141CBFB7B1009038B1 /* CALayer+Cool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +497,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FGLTransitionsAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wannar.WannarTravel.FGLTransitionsAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +511,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FGLTransitionsAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wannar.WannarTravel.FGLTransitionsAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -522,6 +586,7 @@
 				E90481511CBCFBC6001D01DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90481521CBCFBC6001D01DF /* Build configuration list for PBXNativeTarget "FGLTransitionsAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +595,7 @@
 				E90481541CBCFBC6001D01DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90481551CBCFBC6001D01DF /* Build configuration list for PBXNativeTarget "FGLTransitionsAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +604,7 @@
 				E90481571CBCFBC6001D01DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
